@@ -1,0 +1,15 @@
+default:
+  server:
+    host: 'http://127.0.0.1:8080'
+  database:
+    host: 'http://127.0.0.1:3306'
+production:
+  server:
+    host: 'https://path-to-your-production-server'
+  database:
+    host: 'https://path-to-your-production-database'
+dev:
+  server:
+    host: 'https://path-to-your-dev-server'
+  database:
+    host: 'https://path-to-your-dev-database'
